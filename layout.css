@@ -1,0 +1,218 @@
+.container{
+    width:80%;
+    margin: auto;
+    margin-top: 20px;
+}
+.header{
+   /* border: solid 2px rebeccapurple;*/
+}
+/* HEADER */
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    outline: solid 2px rgb(2, 234, 137);
+    align-items: center;
+}
+.logo{
+    width:30%;
+    align-items: center;
+    outline: dotted 2px rgb(250, 4, 41);
+    text-align: center;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    width:70%;
+    outline: dotted 2px rgb(20, 8, 250);
+}
+/*  BANNER */
+.welcome{
+    height: 350px;
+    outline: solid 2px red;
+    text-align: center;
+    line-height: 150px;
+    font-size: 40px;
+}
+/* ABOUT*/
+.flex-about{
+    display: flex;
+    justify-content: space-around;
+    outline: solid 2px rgb(8, 250, 230);
+}
+.about-content{
+    width: 50%;
+    outline: solid 2px rgb(250, 8, 214);
+    text-align: center;
+    height: 400px;
+}
+.about-image{
+    width: 50%;
+    outline: solid 2px rgb(250, 238, 8);
+    text-align: center;
+    height: 400px;
+    font-size: 50px;
+    line-height: 25rem;
+}
+.content{
+    outline: dotted 2px rgb(73, 250, 8);
+    text-align: center;
+    height:25%;
+    line-height: 90px;
+}
+/*FACT*/
+.sub-fact{
+    outline: solid 2px #fa0808;
+    height: 70px;
+    text-align: center;
+    font-size: 50px;
+}
+.flex-num{
+    outline: solid 2px #1e0101;
+    height: 130px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.num{
+line-height: 100px;
+outline: solid 2px #0859fa;
+width: 25%;
+}
+/*SERVICES*/
+.sub-services{
+    width: 100%;
+    height: 70px;
+    outline: solid 2px #fa08f2;
+    text-align: center;
+    font-size: 50px;
+    line-height: 60px;
+}
+.flex-ser{
+    outline: solid 2px #1008fa;
+    display: flex;
+    width: 100%;
+    height: 300px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.ser{
+    width: 33%;
+    height: 100px;
+    outline: dotted 2px #08faf6;
+ 
+}
+/*ACTION*/
+.action{
+    width: 100%;
+    height: 160px;
+    outline: solid 2px #fa08f2;
+    text-align: center;
+    line-height: normal;
+}
+/*TEAM*/
+.sub-team{
+    outline: solid 2px #fa0808;
+    height: 70px;
+    text-align: center;
+    font-size: 50px;
+    color: lightcoral;
+}
+.flex-team{
+    outline: solid 2px #1e0101;
+    height: 180px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.team-img{
+line-height: 100px;
+outline: solid 2px #0859fa;
+width: 150px;
+}
+.main-portfolio{
+    width: 100%;
+    height: 70px;
+    outline: solid 2px darkgreen;
+    text-align: center;
+    font-size: 50px;
+    color: lightsalmon;
+}
+.flex-port{
+    width: 100%;
+    height: 70px;
+    outline: solid 2px rgb(246, 173, 5);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.port{
+    height:30px ;
+    width:50px ;
+    outline: solid 2px rgb(138, 246, 5);
+}
+.port-img{
+    width: 100%;
+    height: 400px;
+    outline: solid 2px rgb(238, 19, 19);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.img{
+    width: 300px;
+    height: 100px;
+    outline: solid 2px rgb(33, 2, 2);
+    text-align: center;
+}
+/*CONTACT*/
+.con-main{
+    width:100%;
+    height: 100px;
+    outline: solid 2px rgb(200, 58, 58);
+    text-align: center;
+    line-height: 60px;
+    font-size: 50px;
+    color: lightslategray;
+}
+.con-map{
+    width:100%;
+    height: 200px;
+    outline: solid 2px rgb(255, 179, 0);
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+}
+/*DETAILS*/
+.flex-details-main{
+    display: flex;
+}
+.flex-details{
+    width: 50%;
+    height: 300px;
+    outline: solid 2px rgb(5, 247, 45);
+    align-items: center; 
+    text-align: center;
+}
+.details-my{
+    width: 50%;
+    height: 300px;
+    outline: solid 2px rgb(247, 5, 98);
+}
+.main-details{
+    margin: 20px 20px 20px 20px;
+    width: 480px;
+    height: 120px;
+    outline: dotted 2px rgb(247, 5, 98);
+}
+.insda-logos{
+    margin: 20px 20px 20px 20px;
+    width: 480px;
+    height: 120px;
+    outline: dotted 2px rgb(247, 5, 98);
+}
